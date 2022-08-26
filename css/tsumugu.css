@@ -83,10 +83,9 @@
   background-size: cover;
 }
 
-
 @media screen and (max-width:479px) {
   .header {
-    height: 300px;
+    height: 320px;
     background-image: url('../images/sunset-192128_1920.jpg');
     background-position: 25% 25%;
     background-size: cover;
@@ -107,6 +106,10 @@
     font-family: 'Droid Sans', sans-serif;
     color: #fff;
     font-size: 15px;
+    text-align: center;
+  }
+  img.maim-logo {
+    margin-top: 50px;
     text-align: center;
   }
   }
@@ -636,15 +639,4 @@
 .image-6 {
   margin-top: 25px;
   margin-left: 3px;
-}
-
-#w-node-7e48b81dc0c7-71e84c97 {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
 }
